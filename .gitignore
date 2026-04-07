@@ -1,0 +1,5 @@
+node_modules/
+.espcompose/
+.espcompose-build/
+.env
+.mypnpmfile.?js
