@@ -10,16 +10,16 @@
     "flash": "espcompose run"
   },
   "dependencies": {
-    "@espcompose/core": "^0.1.0",
-    "@espcompose/ui": "^0.1.0",
+    "@espcompose/core": "^0.2.2",
+    "@espcompose/ui": "^0.2.2",
     "dotenv": "^17.4.1"
   },
   "devDependencies": {
-    "@espcompose/cli": "^0.1.1",
-    "@espcompose/eslint": "^0.1.1",
+    "@espcompose/cli": "^0.2.2",
+    "@espcompose/eslint": "^0.2.2",
     "@types/node": "^22.19.17",
     "eslint": "^9.39.4",
-    "typescript-eslint": "^8.58.0"
+    "typescript-eslint": "^8.58.1"
   },
   "packageManager": "pnpm@10.25.0"
 }

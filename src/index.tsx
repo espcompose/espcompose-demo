@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { DisplayRef, LvglComponentRef, secret, useRef } from '@espcompose/core';
+import { delay, DisplayRef, LvglComponentRef, secret, useRef } from '@espcompose/core';
 import { UI } from './ui';
 import { Waveshare_ESP32P4_WIFI6_Touch_LCD_10_1 } from './hardware';
 
@@ -18,7 +18,8 @@ function App() {
         encryption={{
           key: secret(process.env.AP_ENCRYPTION!)
         }}
-        onClientConnected={() => {
+        onClientConnected={async () => {
+          await delay(2000);
           lvgl.pageNext();
         }}
       />

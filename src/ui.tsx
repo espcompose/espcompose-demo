@@ -12,11 +12,12 @@ type UIProps = {
 
 export const UI = (props: UIProps) => {
 
-    const logo = useImage({ file: './assets/logo.png', type: 'RGB565', resize: '150x150' });
+    const logo = useImage({ file: './assets/logo.png', type: 'RGB565', resize: '150x150', byteOrder: 'little_endian' });
 
     const officeLight = useHAEntity('light.office');
     const gymLight = useHAEntity('light.gym');
     const hockeyLight = useHAEntity('light.air_hockey_light');
+    const gameroomLight = useHAEntity('light.gaming_room');
 
     return <>
         <lvgl
@@ -55,7 +56,7 @@ export const UI = (props: UIProps) => {
 
                         <Card>
                             <HStack>
-                                <SensorText binding={officeLight} label="Office" />
+                                <SensorText binding={officeLight} label="Office" style={{minWidth: 120}} />
                                 <Button
                                     size="lg"
                                     text={officeLight.isOn ? "Office On" : "Office Off"}
@@ -67,6 +68,7 @@ export const UI = (props: UIProps) => {
                                 <LightButton binding={officeLight} label="Office" />
                                 <LightButton binding={gymLight} label="Gym" />
                                 <LightButton binding={hockeyLight} label="Hockey" />
+                                {/* <LightButton binding={gameroomLight} label="Game Room" /> */}
 
                             </HStack>
                         </Card>

@@ -91,7 +91,7 @@ export const Waveshare_ESP32P4_WIFI6_Touch_LCD_10_1 = (props: Waveshare_ESP32P4_
 
         <display
             ref={props.display}
-            platform="mipi_dsi"
+            platform="mipi_dsi"            
             x:custom={{
                 model: "WAVESHARE-P4-NANO-10.1",
                 resetPin: {
