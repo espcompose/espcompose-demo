@@ -7,16 +7,17 @@
     "build": "espcompose transpile",
     "clean": "rm -rf .espcompose .espcompose-build",
     "lint": "eslint .",
-    "flash": "espcompose run"
+    "flash": "espcompose run",
+    "sim": "espcompose simulate"
   },
   "dependencies": {
-    "@espcompose/core": "^0.2.2",
-    "@espcompose/ui": "^0.2.2",
+    "@espcompose/core": "^0.3.2",
+    "@espcompose/ui": "^0.3.2",
     "dotenv": "^17.4.1"
   },
   "devDependencies": {
-    "@espcompose/cli": "^0.2.2",
-    "@espcompose/eslint": "^0.2.2",
+    "@espcompose/cli": "^0.3.2",
+    "@espcompose/eslint": "^0.3.2",
     "@types/node": "^22.19.17",
     "eslint": "^9.39.4",
     "typescript-eslint": "^8.58.1"

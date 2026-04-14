@@ -9,21 +9,21 @@ importers:
   .:
     dependencies:
       '@espcompose/core':
-        specifier: ^0.2.2
-        version: 0.2.2
+        specifier: ^0.3.2
+        version: 0.3.2
       '@espcompose/ui':
-        specifier: ^0.2.2
-        version: 0.2.2
+        specifier: ^0.3.2
+        version: 0.3.2
       dotenv:
         specifier: ^17.4.1
         version: 17.4.1
     devDependencies:
       '@espcompose/cli':
-        specifier: ^0.2.2
-        version: 0.2.2
+        specifier: ^0.3.2
+        version: 0.3.2
       '@espcompose/eslint':
-        specifier: ^0.2.2
-        version: 0.2.2(eslint@9.39.4)(typescript-eslint@8.58.1(eslint@9.39.4)(typescript@6.0.2))(typescript@6.0.2)
+        specifier: ^0.3.2
+        version: 0.3.2(eslint@9.39.4)(typescript-eslint@8.58.1(eslint@9.39.4)(typescript@6.0.2))(typescript@6.0.2)
       '@types/node':
         specifier: ^22.19.17
         version: 22.19.17
@@ -212,24 +212,24 @@ packages:
     resolution: {integrity: sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@espcompose/cli@0.2.2':
-    resolution: {integrity: sha512-cm25Q5+bTWyol1IpmOW45GYcbYIQu1tKVFggbA+axynpK5V7L01kpllWRIrqIJvfTRECDQVqzwZqQhOcMIgtiQ==}
+  '@espcompose/cli@0.3.2':
+    resolution: {integrity: sha512-ssGIeKbMoExm/l869xtynSrOz2Dq0QrMIQnkVAzPWk0BcTGV7ZNTNAJm/bpnrjC1ruHmzyRu0K6HG0julMHcwA==}
     engines: {node: '>=22'}
     hasBin: true
 
-  '@espcompose/core@0.2.2':
-    resolution: {integrity: sha512-IngbSL5anl6OsW0G+DHpiefcnmCLgOamCImXZM+Mjx7O3FKuzzVxYy7jJSslc8PpHflTWFsVtuFcF1euEFvgJg==}
+  '@espcompose/core@0.3.2':
+    resolution: {integrity: sha512-J2NGPrgvWvGnbeXuzwsHkDQI/0vNSa7ukb0eF6keBL+I2CLGyYhLlAOy9CMQH+4cBVnzGE1/MgCa3sP7WM/jjg==}
     engines: {node: '>=22'}
 
-  '@espcompose/eslint@0.2.2':
-    resolution: {integrity: sha512-XRdk4XQan39QOozJFELD75erHEUlQsDS5VqPw22kL4LgzuaeI1sgTlXODuGgkWwYP4SxoOOfuubIvR+Xml3gGg==}
+  '@espcompose/eslint@0.3.2':
+    resolution: {integrity: sha512-tTg3/dF7LPJIff6/EAFlHg4oatrBKQlCANjU/LCr7GotVeD8GBGZre2S/yAuBXCqpAVcmlSbf+A1R98e/RYKeA==}
     engines: {node: '>=22'}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript-eslint: '>=8.0.0'
 
-  '@espcompose/ui@0.2.2':
-    resolution: {integrity: sha512-kPPxnVMM17uolFNwbC/x9NieQ2Qhh3OnR2Vi8/0hD1Ke7Rc6C99vwKmCBsHNhVFirGdIDBNVwCDf43hDVwVG+w==}
+  '@espcompose/ui@0.3.2':
+    resolution: {integrity: sha512-pkOohMHyImco9nGyHy2t23atMNXSCLRum4HYS6mV+owXTN4FY6yKW/SCH2GleL35oid2Akq/FH0YzfcYWR0+RQ==}
     engines: {node: '>=22'}
 
   '@humanfs/core@0.19.1':
@@ -783,9 +783,9 @@ snapshots:
       '@eslint/core': 0.17.0
       levn: 0.4.1
 
-  '@espcompose/cli@0.2.2':
+  '@espcompose/cli@0.3.2':
     dependencies:
-      '@espcompose/eslint': 0.2.2(eslint@9.39.4)(typescript-eslint@8.58.1(eslint@9.39.4)(typescript@6.0.2))(typescript@5.9.3)
+      '@espcompose/eslint': 0.3.2(eslint@9.39.4)(typescript-eslint@8.58.1(eslint@9.39.4)(typescript@6.0.2))(typescript@5.9.3)
       esbuild: 0.21.5
       eslint: 9.39.4
       typescript: 5.9.3
@@ -794,11 +794,11 @@ snapshots:
       - jiti
       - supports-color
 
-  '@espcompose/core@0.2.2': {}
+  '@espcompose/core@0.3.2': {}
 
-  '@espcompose/eslint@0.2.2(eslint@9.39.4)(typescript-eslint@8.58.1(eslint@9.39.4)(typescript@6.0.2))(typescript@5.9.3)':
+  '@espcompose/eslint@0.3.2(eslint@9.39.4)(typescript-eslint@8.58.1(eslint@9.39.4)(typescript@6.0.2))(typescript@5.9.3)':
     dependencies:
-      '@espcompose/core': 0.2.2
+      '@espcompose/core': 0.3.2
       '@typescript-eslint/utils': 8.58.1(eslint@9.39.4)(typescript@5.9.3)
       eslint: 9.39.4
       typescript-eslint: 8.58.1(eslint@9.39.4)(typescript@6.0.2)
@@ -806,9 +806,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@espcompose/eslint@0.2.2(eslint@9.39.4)(typescript-eslint@8.58.1(eslint@9.39.4)(typescript@6.0.2))(typescript@6.0.2)':
+  '@espcompose/eslint@0.3.2(eslint@9.39.4)(typescript-eslint@8.58.1(eslint@9.39.4)(typescript@6.0.2))(typescript@6.0.2)':
     dependencies:
-      '@espcompose/core': 0.2.2
+      '@espcompose/core': 0.3.2
       '@typescript-eslint/utils': 8.58.1(eslint@9.39.4)(typescript@6.0.2)
       eslint: 9.39.4
       typescript-eslint: 8.58.1(eslint@9.39.4)(typescript@6.0.2)
@@ -816,9 +816,9 @@ snapshots:
       - supports-color
       - typescript
 
-  '@espcompose/ui@0.2.2':
+  '@espcompose/ui@0.3.2':
     dependencies:
-      '@espcompose/core': 0.2.2
+      '@espcompose/core': 0.3.2
 
   '@humanfs/core@0.19.1': {}
 

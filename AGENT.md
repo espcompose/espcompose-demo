@@ -17,7 +17,6 @@ An ESPCompose project that builds a touch-screen dashboard for an ESP32-P4 devic
 Before making changes, read these skill files directly (do not use file search — they are in `node_modules` which is gitignored):
 
 - `node_modules/@espcompose/core/skills/espcompose.md` — Core framework reference
-- `node_modules/@espcompose/core/skills/espcompose-styling.md` — Styling reference
 
 ## Project Structure
 
